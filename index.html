@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>colculator</title>
+    <style>
+        .colculator-box
+        {
+            background-color:#595959;
+           width: 300px;
+           height: 500px; 
+           margin-left: auto;
+           margin-right: auto;
+           border-radius: 10px;
+           padding: 10px;
+           margin-top: 50px;
+
+        }
+        .RTC{
+        color: white;
+        margin-left: 260px;
+        padding-top: 5px;
+        font-size: 15px
+    }
+
+        .col-screen{ 
+         height: 80px;
+        width: 290px;
+        font-size: 30px;
+        border-radius:10px;
+        background-color: #999999;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        }
+        .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+     }
+     .cal-button{
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+        font-size: 30px;
+        color: whitesmoke ;
+        box-shadow: 5px 5px 3px #ff1a75;
+        border-radius: 23px;
+        border: 0px solid ;
+        background-color: transparent;
+        font-weight: bold;
+        
+     }
+     .obutton{
+        height: 50px;
+        width: 130px;
+        margin: 10px;
+        font-size: 30px;
+        color: whitesmoke ;
+        box-shadow: 5px 5px 3px #ff1a75;
+        border-radius: 23px;
+        border: 0px solid ;
+        background-color: transparent;
+        font-weight: bold;
+        
+     }
+     .cal-button:hover{
+        box-shadow: 5px 5px 3px red;
+        transition: 0.5s;
+     }
+     .obutton:hover{
+        box-shadow: 5px 5px 3px red;
+        transition: 0.5s;
+     }
+
+    </style>
+  </head>
+  <body>
+    <div class="colculator-box">
+        <p class="RTC">RTC</p>
+        <input type="text" class=" col-screen "/>
+        <div class="buttons">
+            <button class="cal-button">C</button>
+            <button class="cal-button">ox</button>
+            <button class="cal-button">%</button>
+            <button class="cal-button">/</button></div>
+
+            <div class="buttons">
+            <button class="cal-button">7</button>
+            <button class="cal-button">8</button>
+            <button class="cal-button">9</button>
+            <button class="cal-button">x</button></div>
+
+            <div class="buttons">
+            <button class="cal-button">4</button>
+            <button class="cal-button">5</button>
+            <button class="cal-button">6</button>
+            <button class="cal-button">-</button></div>
+
+            <div class="buttons">
+            <button class="cal-button">1</button>
+            <button class="cal-button">2</button>
+            <button class="cal-button">3</button>
+            <button class="cal-button">+</button></div>
+
+            <div class="buttons">
+            <button class="obutton">0</button>
+            <button class="cal-button">.</button>
+            <button class="cal-button">=</button>
+        </div>
+        
+
+    </div>
+
+  </body>
+</html>
